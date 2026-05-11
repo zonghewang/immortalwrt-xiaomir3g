@@ -142,6 +142,13 @@
 			status = "okay";
 			label = "lan1";
 		};
+		port@5 {
+			status = "disabled";
+		};
+
+		port@6 {
+			phy-mode = "trgmii";
+		};
 	};
 
 };
